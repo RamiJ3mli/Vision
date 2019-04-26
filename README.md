@@ -4,7 +4,7 @@
 <img src="art/vision.png" />  
 <br/>  
 
-As ARCore will be heavily used in the near future for AR based apps, Vision as a sample app will be the demonstration of every feature and trick made possible by the ARCore library. Detailed documentation will be provided as well.
+As ARCore will be heavily used in the near future for AR based apps, Vision as a sample Android app will be the demonstration of every feature and trick made possible by the ARCore Android SDK. Detailed documentation will be provided as well.
 
 ## LICENSE
  
