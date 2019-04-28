@@ -7,7 +7,7 @@
 <br/> 
 ARCore overview : https://developers.google.com/ar/discover/<br/> 
 ARCore's supported devices : https://developers.google.com/ar/discover/supported-devices
-<br/> 
+<br/><br/>  
 As ARCore will be heavily used in the near future for AR based apps, Vision as a sample Android app will be the demonstration of every feature and trick made possible by the ARCore Android SDK. Detailed documentation will be provided as well.
 
 # TODO
