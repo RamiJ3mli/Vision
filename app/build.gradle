@@ -6,6 +6,8 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'kotlin-kapt'
 
+apply plugin: 'com.google.ar.sceneform.plugin'
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -14,13 +16,18 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
@@ -31,6 +38,23 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.0.1'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'com.google.ar:core:1.8.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.8.0'
     implementation "org.permissionsdispatcher:permissionsdispatcher:4.3.1"
     kapt "org.permissionsdispatcher:permissionsdispatcher-processor:4.3.1"
 }
+
+
+sceneform.asset('sampledata/3dmodels/Astronaut.obj',
+        'default',
+        'sampledata/3dmodels/Astronaut.sfa',
+        'src/main/assets/Astronaut')
+
+sceneform.asset('sampledata/3dmodels/fish.obj',
+        'default',
+        'sampledata/3dmodels/fish.sfa',
+        'src/main/assets/fish')
+
+sceneform.asset('sampledata/3dmodels/mecha.obj',
+        'default',
+        'sampledata/3dmodels/mecha.sfa',
+        'src/main/assets/mecha')

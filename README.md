@@ -3,6 +3,9 @@
 <br/>  
 <img src="art/vision.png" />  
 <br/>  
+<br/>  
+<img src="art/ar_01.gif" width="40%" />  <img src="art/ar_02.gif" width="40%" /> 
+<br/>  
 
 As ARCore will be heavily used in the near future for AR based apps, Vision as a sample Android app will be the demonstration of every feature and trick made possible by the ARCore Android SDK. Detailed documentation will be provided as well.
 
