@@ -2,7 +2,7 @@
 
 <br/>  
 <img src="art/vision.png" />  
-<br/>  
+
 <img src="art/ar_01.gif" width="30%" /> <img src="art/ar_02.gif" width="30%" /> 
 <br/>  
 
